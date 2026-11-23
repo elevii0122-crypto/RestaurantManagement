@@ -2,6 +2,7 @@ package hu.restaurant;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class OrderTest {
@@ -27,6 +28,15 @@ public class OrderTest {
             new Food("Pizza", -1500, 800);
         });
 
+    }
+
+    @Test
+    public void testSingleton() {
+
+        Restaurant r1 = Restaurant.getInstance();
+        Restaurant r2 = Restaurant.getInstance();
+
+        assertSame(r1, r2);
     }
 }
 
