@@ -1,0 +1,6 @@
+FOOD;asd;54;25
+DRINK;Ásványvíz;400;0.5;0
+DRINK;Cola;650;0.5;210
+DRINK;Feles;1200;0.1;100
+FOOD;Hamburger;2500;650
+FOOD;Pizza;2800;850
