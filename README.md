@@ -14,6 +14,12 @@ A RestaurantManagement egy Java nyelven készült, konzolos étteremkezelő alka
 - Rendelések és végösszegek megjelenítése
 - Adatok mentése és betöltése szöveges fájlokból
 
+## Követelmények
+
+ - Java JDK 25
+ - Apache Maven a parancssoros fordításhoz, vagy az IntelliJ IDEA Maven-integrációja
+ - IntelliJ IDEA
+
 ## Tervezési minta – Singleton
 
 A projekt a Singleton tervezési mintát használja a `Restaurant` osztályban.
