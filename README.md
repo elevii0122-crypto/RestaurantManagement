@@ -49,12 +49,6 @@ A projekt JUnit teszteket tartalmaz, amelyek ellenőrzik a rendelés végösszeg
 - **Design Pattern:** Singleton a `Restaurant` osztályban.
 - **Testing:** Három sikeres JUnit 5 teszt.
 
-## Követelmények
-
-- Java JDK 25
-- Apache Maven
-- IntelliJ IDEA (ajánlott, de nem kötelező)
-
 ## Fordítás és tesztelés
 
 A projekt főmappájában terminálból a következő parancsok használhatók.
